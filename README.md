@@ -4,8 +4,8 @@ Small, self‑contained demo that **finds the optimal tour for a handful of citi
 
 | Part | Highlights |
 |------|------------|
-| `tsp.py` | * Brute‑force search using `itertools.permutations`<br>* Euclidean distance via `math.hypot`<br>* Prints best path & total distance |
-| `animate.py` | * Smoothly interpolates between city coordinates with `numpy.linspace`<br>* Draws static city markers, a growing blue route, and a red “salesman” dot<br>* Embeds directly in Google Colab (`ani.to_jshtml()`), or opens a window locally |
+| `TSP.ipynb` | * Brute‑force search using `itertools.permutations`<br>* Euclidean distance via `math.hypot`<br>* Prints best path & total distance |
+| `animate` | * Smoothly interpolates between city coordinates with `numpy.linspace`<br>* Draws static city markers, a growing blue route, and a red “salesman” dot<br>* Embeds directly in Google Colab (`ani.to_jshtml()`), or opens a window locally |
 
 ---
 
