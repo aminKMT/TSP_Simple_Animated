@@ -24,10 +24,10 @@ python tsp.py
 # 2 – watch the salesman travel that path
 python animate.py        # local GUI window
 
-#Running in Colab?
-Just run tsp.py first, then the animation cell – it will embed a HTML5 animation inline.
+# Running in Colab?
+Just run TSP_Code.ipynb first, and then second script – it will embed a HTML5 animation inline.
 
-#📝 How it works
+# 📝 How it works
 1- Brute‑Force Search
 Generates every permutation of visiting the cities, closes the loop, sums the distances, and keeps the shortest. Elegant but exponential—meant for ≤ 8 cities.
 
